@@ -42,7 +42,6 @@ import torch.nn as nn
 import torch.utils.model_zoo as model_zoo
 import numpy as np
 from models_lpf import *
-from IPython import embed
 
 __all__ = ['AlexNet', 'alexnet']
 
