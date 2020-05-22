@@ -38,7 +38,7 @@
 # OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 
 from torch import nn
-from models_lpf import *
+from .downsample import Downsample
 
 __all__ = ['MobileNetV2', 'mobilenet_v2']
 
